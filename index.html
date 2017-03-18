@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<head>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/greets.css">
+
+</head>
+
+<body>
+<br>
+<div class="intro"><h1>Greets</h1></div>
+<br>
+
+
+<form id="myForm">
+  <div class="input" id="mytest">
+
+  <div class="useName">
+    Name: <input type="text" name="name" id="name" value="" />
+  </div>
+  <br>
+  <div class="massage">
+    Please select a language
+  </div>
+
+   <br>
+
+  <div class="languageSelector" id="myForm">
+
+    <input id="Xhosa" name="language" type="radio" value="Xhosa">Xhosa
+    <input id="English" name="language" type="radio" value="English">English
+    <input id="Afrikaans" name="language" type="radio" value="Afrikaans">Afrikaans
+  </div>
+
+
+  <!--<p id="greetCount"></p>-->
+
+  <!--<p id="output"></p>-->
+  <div class="count" id="count">
+    <label for="count"> </label>
+    <label id="output"></label>
+
+    <div class="biley">
+      count:
+      <!--<form id="myForm">-->
+      <p id="greetCount"></p>
+
+    </div><!--</form>-->
+
+    </div>
+
+</div>
+</form>
+
+<div class="buttons"><button id="buttons" >Greet me</button></div>
+
+
+<div class="Greetbutton"><input type="button" onclick="myFunction()" value="Reset form"></div>
+</body>
+</html>
+<script src="greets.js"></script>
+<script>
+function myFunction() {
+  document.getElementById("myForm").reset();
+  document.getElementById("output").innerHTML = "";
+  document.getElementById("greetCount").innerHTML = "";
+
+
+
+}
+</script>

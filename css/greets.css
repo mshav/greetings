@@ -1,0 +1,70 @@
+.intro{
+color:white;
+margin-left:395px;
+border:solid #0c0c0c 2px;
+border-radius: 4px;
+width:270px;
+text-align:center;
+background-color:#0c0c0c;
+height:60px;
+font-family:cursive;
+padding-left:-9px;
+}
+.input{
+
+margin-left:400px;
+padding-right:98px;
+}
+
+
+.massage{
+text-align:center;
+border-radius:4px;
+border:solid #0c0c0c 2px;
+width:190px;
+background-color:#0c0c0c;
+color:white;
+margin-left:justify;
+padding-left:1px;
+}
+.languageSelector{
+text-align:center;
+border-radius:4px;
+border:solid #0c0c0c 2px;
+background-color:#0c0c0c;
+width:220px;
+color:white;
+padding-left: 1px;
+}
+.buttons{
+text-align:center;
+padding-right:360px;
+
+}
+body{
+background-image:url('http://coda-craven.org/wp-content/uploads/2016/09/funny-joker-smile-uhd-wallpapers-coda-craven.jpg');
+border:solid black 3px;
+height:700px;
+}
+.useName{
+color:black;
+margin-left:center;
+padding-right: 520px;
+}
+
+
+
+.biley{
+margin:justify;
+border-radius: solid black 3px;
+
+}
+
+.Greetbutton{
+text-align: center;
+padding-right: 340px;
+background-color: black;
+border-radius: 4px;
+border: 2px;
+width:1px;
+}
